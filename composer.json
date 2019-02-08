@@ -1,0 +1,22 @@
+{
+    "name": "janvernieuwe/grumphp-issue590",
+    "authors": [
+        {
+            "name": "Jan Vernieuwe",
+            "email": "jan.vernieuwe@phpro.be"
+        }
+    ],
+    "require": {},
+    "config": {
+        "vendor-dir": "_dev/vendor"
+    },
+    "autoload": {
+        "psr-4": {
+            "\\App": "/"
+        }
+    },
+    "require-dev": {
+        "phpro/grumphp": "^0.14.3",
+        "squizlabs/php_codesniffer": "^3.4"
+    }
+}

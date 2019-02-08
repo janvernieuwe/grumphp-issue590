@@ -1,0 +1,10 @@
+parameters:
+    git_dir: .
+    bin_dir: _dev/vendor/bin
+    tasks:
+        phpcs:
+            standard: PSR2
+            tab_width: 4
+            severity: 1
+            warning_severity: 1
+            triggered_by: [php]
